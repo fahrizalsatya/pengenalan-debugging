@@ -43,3 +43,7 @@ func main() {
 	}
 	fmt.Println(string(jsonBytes))
 }
+
+func add(a, b int) int {
+	return a + b
+}
